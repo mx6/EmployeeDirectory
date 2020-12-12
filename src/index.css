@@ -20,3 +20,8 @@ header {
 h3, h5 {
   color: white;
 }
+
+.mb-3 {
+  width: 50pc;
+  text-align: center;
+}

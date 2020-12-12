@@ -15,7 +15,7 @@ console.log({employeeSearch})
                     aria-describedby="basic-addon2"
                 />
                 <InputGroup.Append>
-                    <Button variant="outline-secondary">Button</Button>
+                    <Button variant="outline-secondary">Search</Button>
                 </InputGroup.Append>
             </InputGroup>
 

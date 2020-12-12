@@ -15,19 +15,36 @@ function App() {
     axios.get("https://randomuser.me/api/?results=10&nat=us").then(response => {
       // console.log(response.data.results)
       setEmployees([...response.data.results])
+
+      function sortByName(currentSpot, nextSpot) {
+        if (currentSpot.name.first > nextSpot.name.first) {
+          return 1;
+        }
+        return -1;
+      }
+      
+      response.data.results.sort(sortByName);
+
+      
+
+      // console.log(response.data.results[0]employee.name.first);
+      // console.log(response.data.results[199]employee.name.first);
+
+
     })
   }, [])
 
   // console.log(employees);
-
+  // employee.name.first.onclick = function(){sortByName};
+  
   return (
     <div className="App">
       <Header />
       <header className="App-header">
-       
+
       </header>
       <EmployeeTable employees={employees} />
-      
+
     </div>
   );
 }
