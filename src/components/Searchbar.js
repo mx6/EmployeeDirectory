@@ -2,7 +2,7 @@ import React from "react";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
 
 function Searchbar({employeeSearch}) {
-console.log({employeeSearch})
+// console.log({employeeSearch})
     return (
         <div>
 

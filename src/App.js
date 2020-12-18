@@ -16,19 +16,7 @@ function App() {
       // console.log(response.data.results)
       setEmployees([...response.data.results])
 
-      function sortByName(currentSpot, nextSpot) {
-        if (currentSpot.name.first > nextSpot.name.first) {
-          return 1;
-        }
-        return -1;
-      }
-      
-      response.data.results.sort(sortByName);
-
-      
-
-      // console.log(response.data.results[0]employee.name.first);
-      // console.log(response.data.results[199]employee.name.first);
+   
 
 
     })
