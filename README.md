@@ -17,3 +17,8 @@ The user is able to:
   * Sort the table by at least one category
 
   * Filter the users by at least one property.
+
+
+Here's what it looks like:
+
+![CODE SCREENSHOT](./empdir_screenshot_01.png)
