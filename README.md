@@ -1,5 +1,8 @@
 For this assignment, I created a employee directory with React. This assignment required me to break up the application's UI into components, manage component state, and respond to user events.
 
+Deployed site:
+https://mx6.github.io/EmployeeDirectory/
+
 ## User Story
 
 * The user wanted to be able to view the entire employee directory at once so that they have quick access to their information.
