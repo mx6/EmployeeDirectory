@@ -2,7 +2,7 @@
   "name": "employee-dir",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mx6/EmployeeDirectory",
+  "homepage": "https://mx6.github.io/EmployeeDirectory/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
