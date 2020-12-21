@@ -3,19 +3,11 @@ body {
   font-family: 'Noto Serif', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  align-content: center;
-  align-items: center;
-  align-self: center;
-  text-align: center;
-  vertical-align: middle;
+  
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 header {
+  width: 99pc;
   background-color: darkblue;
   padding: 10px;
 }
@@ -27,7 +19,6 @@ h1, h3, h4, h5 {
 }
 
 .mb-3 {
-  /* visibility: hidden; */
   width: 50pc;
   padding: 20px;
   margin-left: auto;
@@ -35,5 +26,9 @@ h1, h3, h4, h5 {
 }
 
 img {
-  /* width: 50px; */
+  width: 100px;
+}
+
+td {
+  vertical-align: middle;
 }
